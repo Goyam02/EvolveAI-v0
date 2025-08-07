@@ -9,7 +9,7 @@ export default function FuturisticGradientHero() {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url('https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/document-uploads/1754553082599-xzuwije61wi.png')`
+          backgroundImage: `url('/bgimg.jpg')`
         }}
       />
       
