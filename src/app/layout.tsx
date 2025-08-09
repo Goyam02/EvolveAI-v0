@@ -16,8 +16,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="antialiased">
         <Script
-          // src="https://slelguoygbfzlpylpxfs.supabase./storage/v1/object/public/scripts//route-messenger.js"
-          src="/bgimg.png"
+          src="/bgimg.jpg"
           strategy="afterInteractive"
           data-target-origin="*"
           data-message-type="ROUTE_CHANGE"

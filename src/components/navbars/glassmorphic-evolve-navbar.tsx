@@ -74,7 +74,7 @@ export default function GlassmorphicEvolveNavbar() {
         {/* Mobile Menu Button */}
         <button
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-          className="lg:hidden p-2 text-white"
+          className="lg:hidden p-2 text-[#000000]"
         >
           {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
@@ -87,19 +87,19 @@ export default function GlassmorphicEvolveNavbar() {
             <a
               key={link.name}
               href={link.href}
-              className="text-white font-medium"
+              className="text--[#000000] font-medium"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               {link.name}
             </a>
           ))}
           <Button
-            className="w-full bg-gradient-to-r from-purple-600 to-purple-500 hover:from-purple-700 hover:to-purple-600 text-white py-3 rounded-full font-medium transition-all duration-200"
+            className="w-full bg-gradient-to-r from-purple-600 to-purple-500 hover:from-purple-700 hover:to-purple-600 text--[#000000] py-3 rounded-full font-medium transition-all duration-200"
           >
             Get In Touch
           </Button>
           <div className="flex justify-center pt-2">
-            <Image src="/chitkara-logo.png" alt="Chitkara University" width={120} height={30} />
+            <Image src="/chitkara.png" alt="Chitkara University" width={120} height={30} />
           </div>
         </div>
       )}
